@@ -4,3 +4,12 @@ sys:
   port: 9123
 
 db:
+  type: mysql
+  mysql:
+    url: 1.15.52.138:3306
+    config: charset=utf8mb4&parseTime=True&loc=Local
+    db-name: miniShopCabinet
+    user-name: root
+    password: undergeek
+    max-idle-conns: 0
+    max-open-conns: 0

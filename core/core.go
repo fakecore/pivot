@@ -17,20 +17,30 @@ type Core struct {
 
 func (c *Core) init() {
 	//global.G_CONF =
+	//TODO using tags and reflection to automatically inject component
 	v, conf := InitConfig()
+	global.G_LOG = InitLogger()
 	global.G_CONF = conf
 	global.G_VIPER = v
-	global.G_DB = Gorm() // init gorm connection pools
+	global.G_DB = InitDbOrDie()       // init gorm connection pools
+	global.G_REDIS = InitRedisOrDie() // init gorm connection pools
 	global.G_Engine = InitRouter()
-	fmt.Println("{}", global.G_CONF)
+	//global.G_LOG
+	global.G_LOG.Info("hello, Welcome to povit!")
+	//global.G_LOG.Info("%v", zap.Any("", global.G_CONF))
+	//fmt.Println("{}", global.G_CONF)
 	//TODO redis
 
-	if global.G_DB != nil {
-		//create db
-		db, _ := global.G_DB.DB()
-		defer db.Close()
-	} else {
-	}
+	//if global.G_DB != nil {
+	//create db
+	//db, _ := global.G_DB.DB.
+	//defer db.Close()
+	//} else {
+	//}
+}
+
+func (c *Core) deconstruct() {
+	global.G_LOG.Sync()
 }
 
 func (c *Core) initServer(address string, router *gin.Engine) server {
@@ -43,8 +53,10 @@ func (c *Core) initServer(address string, router *gin.Engine) server {
 
 func (c *Core) Run() {
 	c.init()
+	defer c.deconstruct()
 	address := fmt.Sprintf(":%d", global.G_CONF.Sys.Port)
 	fmt.Println(address)
 	s := c.initServer(address, global.G_Engine)
 	s.ListenAndServe()
+
 }

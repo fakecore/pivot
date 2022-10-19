@@ -9,7 +9,7 @@ import (
 // +ioc:autowire=true
 // +ioc:autowire:type=singleton
 type SysUserRouter struct {
-	User sys.UserInterface `singleton:"indulge/api/v1/db/impl.User"`
+	User sys.UserInterface `singleton:"povit/api/v1/sys/impl.User"`
 }
 
 func (r *SysUserRouter) InitRouter(Router *gin.RouterGroup) {
