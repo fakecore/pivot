@@ -1,8 +1,11 @@
 package sys
 
+//import "povit/global"
+
 type SysUserDao struct {
 }
 
-func IsUserValid(id uint) bool {
+func (dao *SysUserDao) IsUserValid(id uint) bool {
 	//global.G_DB.Select()
+	return true
 }

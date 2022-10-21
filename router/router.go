@@ -1,7 +1,7 @@
 package router
 
 import (
-	"indulge/router/sys"
+	"povit/router/sys"
 )
 
 // +ioc:autowire=true

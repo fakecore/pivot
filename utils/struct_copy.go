@@ -7,8 +7,8 @@ import (
 )
 
 // StructCopy all action is shallow copy
+// from https://juejin.cn/post/6844904009505964039
 func StructCopy(src interface{}, dst interface{}) (err error) {
-	//https://juejin.cn/post/6844904009505964039
 	// 防止意外panic
 	defer func() {
 		if e := recover(); e != nil {

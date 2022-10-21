@@ -3,8 +3,8 @@ package core
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"indulge/middleware"
-	"indulge/router"
+	"povit/middleware"
+	"povit/router"
 	"reflect"
 )
 

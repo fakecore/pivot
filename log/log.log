@@ -1,33 +1,33 @@
-{"level":"debug","time":"2022-10-13 11:46:11.476","line":"/Users/dylan/code/indulge/core/log.go:69","func":"indulge/core.InitLogger","msg":"test1280's debug"}
-{"level":"info","time":"2022-10-13 11:46:11.476","line":"/Users/dylan/code/indulge/core/log.go:70","func":"indulge/core.InitLogger","msg":"test1280's infof"}
-{"level":"warn","time":"2022-10-13 11:46:11.476","line":"/Users/dylan/code/indulge/core/log.go:71","func":"indulge/core.InitLogger","msg":"test1280's warnf"}
-{"level":"error","time":"2022-10-13 11:46:11.476","line":"/Users/dylan/code/indulge/core/log.go:72","func":"indulge/core.InitLogger","msg":"test1280's error"}
-{"level":"info","time":"2022-10-13 11:46:11.476","line":"/Users/dylan/code/indulge/core/db.go:32","func":"indulge/core.getMysqlConfigDns","msg":"","connecting: ":"root:%@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
-{"level":"info","time":"2022-10-13 11:46:11.547","line":"/Users/dylan/code/indulge/core/core.go:28","func":"indulge/core.(*Core).init","msg":"hello, Welcome to indulge!"}
-{"level":"debug","time":"2022-10-13 11:48:11.846","line":"/Users/dylan/code/indulge/core/log.go:69","func":"indulge/core.InitLogger","msg":"test1280's debug"}
-{"level":"info","time":"2022-10-13 11:48:11.846","line":"/Users/dylan/code/indulge/core/log.go:70","func":"indulge/core.InitLogger","msg":"test1280's infof"}
-{"level":"warn","time":"2022-10-13 11:48:11.846","line":"/Users/dylan/code/indulge/core/log.go:71","func":"indulge/core.InitLogger","msg":"test1280's warnf"}
-{"level":"error","time":"2022-10-13 11:48:11.846","line":"/Users/dylan/code/indulge/core/log.go:72","func":"indulge/core.InitLogger","msg":"test1280's error"}
-{"level":"info","time":"2022-10-13 11:48:11.846","line":"/Users/dylan/code/indulge/core/db.go:32","func":"indulge/core.getMysqlConfigDns","msg":"","connecting: ":"root:%@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
-{"level":"info","time":"2022-10-13 11:48:11.924","line":"/Users/dylan/code/indulge/core/core.go:28","func":"indulge/core.(*Core).init","msg":"hello, Welcome to indulge!"}
-{"level":"debug","time":"2022-10-13 11:48:29.518","line":"/Users/dylan/code/indulge/core/log.go:69","func":"indulge/core.InitLogger","msg":"test1280's debug"}
-{"level":"info","time":"2022-10-13 11:48:29.518","line":"/Users/dylan/code/indulge/core/log.go:70","func":"indulge/core.InitLogger","msg":"test1280's infof"}
-{"level":"warn","time":"2022-10-13 11:48:29.518","line":"/Users/dylan/code/indulge/core/log.go:71","func":"indulge/core.InitLogger","msg":"test1280's warnf"}
-{"level":"error","time":"2022-10-13 11:48:29.518","line":"/Users/dylan/code/indulge/core/log.go:72","func":"indulge/core.InitLogger","msg":"test1280's error"}
-{"level":"info","time":"2022-10-13 11:48:29.518","line":"/Users/dylan/code/indulge/core/db.go:32","func":"indulge/core.getMysqlConfigDns","msg":"","connecting: ":"root:%@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
-{"level":"info","time":"2022-10-13 11:48:29.697","line":"/Users/dylan/code/indulge/core/core.go:28","func":"indulge/core.(*Core).init","msg":"hello, Welcome to indulge!"}
-{"level":"[DEBUG]","time":"[2022-10-13 11:51:52.346]","line":"[core/log.go:85]","func":"indulge/core.InitLogger","msg":"test1280's debug"}
-{"level":"[INFO]","time":"[2022-10-13 11:51:52.346]","line":"[core/log.go:86]","func":"indulge/core.InitLogger","msg":"test1280's infof"}
-{"level":"[WARN]","time":"[2022-10-13 11:51:52.346]","line":"[core/log.go:87]","func":"indulge/core.InitLogger","msg":"test1280's warnf"}
-{"level":"[ERROR]","time":"[2022-10-13 11:51:52.346]","line":"[core/log.go:88]","func":"indulge/core.InitLogger","msg":"test1280's error"}
-{"level":"[INFO]","time":"[2022-10-13 11:51:52.346]","line":"[core/db.go:32]","func":"indulge/core.getMysqlConfigDns","msg":"","connecting: ":"root:%@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
-{"level":"[INFO]","time":"[2022-10-13 11:51:52.605]","line":"[core/core.go:28]","func":"indulge/core.(*Core).init","msg":"hello, Welcome to indulge!"}
-{"level":"\u001b[35mDEBUG\u001b[0m","time":"[2022-10-13 11:53:21.414]","line":"[core/log.go:88]","func":"indulge/core.InitLogger","msg":"test1280's debug"}
-{"level":"\u001b[34mINFO\u001b[0m","time":"[2022-10-13 11:53:21.414]","line":"[core/log.go:89]","func":"indulge/core.InitLogger","msg":"test1280's infof"}
-{"level":"\u001b[33mWARN\u001b[0m","time":"[2022-10-13 11:53:21.415]","line":"[core/log.go:90]","func":"indulge/core.InitLogger","msg":"test1280's warnf"}
-{"level":"\u001b[31mERROR\u001b[0m","time":"[2022-10-13 11:53:21.415]","line":"[core/log.go:91]","func":"indulge/core.InitLogger","msg":"test1280's error"}
-{"level":"\u001b[34mINFO\u001b[0m","time":"[2022-10-13 11:53:21.415]","line":"[core/db.go:32]","func":"indulge/core.getMysqlConfigDns","msg":"","connecting: ":"root:%@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
-{"level":"\u001b[34mINFO\u001b[0m","time":"[2022-10-13 11:53:21.514]","line":"[core/core.go:28]","func":"indulge/core.(*Core).init","msg":"hello, Welcome to indulge!"}
+{"level":"debug","time":"2022-10-13 11:46:11.476","line":"/Users/dylan/code/indulge/core/log.go:69","func":"povit/core.InitLogger","msg":"test1280's debug"}
+{"level":"info","time":"2022-10-13 11:46:11.476","line":"/Users/dylan/code/indulge/core/log.go:70","func":"povit/core.InitLogger","msg":"test1280's infof"}
+{"level":"warn","time":"2022-10-13 11:46:11.476","line":"/Users/dylan/code/indulge/core/log.go:71","func":"povit/core.InitLogger","msg":"test1280's warnf"}
+{"level":"error","time":"2022-10-13 11:46:11.476","line":"/Users/dylan/code/indulge/core/log.go:72","func":"povit/core.InitLogger","msg":"test1280's error"}
+{"level":"info","time":"2022-10-13 11:46:11.476","line":"/Users/dylan/code/indulge/core/db.go:32","func":"povit/core.getMysqlConfigDns","msg":"","connecting: ":"root:%@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+{"level":"info","time":"2022-10-13 11:46:11.547","line":"/Users/dylan/code/indulge/core/core.go:28","func":"povit/core.(*Core).init","msg":"hello, Welcome to indulge!"}
+{"level":"debug","time":"2022-10-13 11:48:11.846","line":"/Users/dylan/code/indulge/core/log.go:69","func":"povit/core.InitLogger","msg":"test1280's debug"}
+{"level":"info","time":"2022-10-13 11:48:11.846","line":"/Users/dylan/code/indulge/core/log.go:70","func":"povit/core.InitLogger","msg":"test1280's infof"}
+{"level":"warn","time":"2022-10-13 11:48:11.846","line":"/Users/dylan/code/indulge/core/log.go:71","func":"povit/core.InitLogger","msg":"test1280's warnf"}
+{"level":"error","time":"2022-10-13 11:48:11.846","line":"/Users/dylan/code/indulge/core/log.go:72","func":"povit/core.InitLogger","msg":"test1280's error"}
+{"level":"info","time":"2022-10-13 11:48:11.846","line":"/Users/dylan/code/indulge/core/db.go:32","func":"povit/core.getMysqlConfigDns","msg":"","connecting: ":"root:%@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+{"level":"info","time":"2022-10-13 11:48:11.924","line":"/Users/dylan/code/indulge/core/core.go:28","func":"povit/core.(*Core).init","msg":"hello, Welcome to indulge!"}
+{"level":"debug","time":"2022-10-13 11:48:29.518","line":"/Users/dylan/code/indulge/core/log.go:69","func":"povit/core.InitLogger","msg":"test1280's debug"}
+{"level":"info","time":"2022-10-13 11:48:29.518","line":"/Users/dylan/code/indulge/core/log.go:70","func":"povit/core.InitLogger","msg":"test1280's infof"}
+{"level":"warn","time":"2022-10-13 11:48:29.518","line":"/Users/dylan/code/indulge/core/log.go:71","func":"povit/core.InitLogger","msg":"test1280's warnf"}
+{"level":"error","time":"2022-10-13 11:48:29.518","line":"/Users/dylan/code/indulge/core/log.go:72","func":"povit/core.InitLogger","msg":"test1280's error"}
+{"level":"info","time":"2022-10-13 11:48:29.518","line":"/Users/dylan/code/indulge/core/db.go:32","func":"povit/core.getMysqlConfigDns","msg":"","connecting: ":"root:%@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+{"level":"info","time":"2022-10-13 11:48:29.697","line":"/Users/dylan/code/indulge/core/core.go:28","func":"povit/core.(*Core).init","msg":"hello, Welcome to indulge!"}
+{"level":"[DEBUG]","time":"[2022-10-13 11:51:52.346]","line":"[core/log.go:85]","func":"povit/core.InitLogger","msg":"test1280's debug"}
+{"level":"[INFO]","time":"[2022-10-13 11:51:52.346]","line":"[core/log.go:86]","func":"povit/core.InitLogger","msg":"test1280's infof"}
+{"level":"[WARN]","time":"[2022-10-13 11:51:52.346]","line":"[core/log.go:87]","func":"povit/core.InitLogger","msg":"test1280's warnf"}
+{"level":"[ERROR]","time":"[2022-10-13 11:51:52.346]","line":"[core/log.go:88]","func":"povit/core.InitLogger","msg":"test1280's error"}
+{"level":"[INFO]","time":"[2022-10-13 11:51:52.346]","line":"[core/db.go:32]","func":"povit/core.getMysqlConfigDns","msg":"","connecting: ":"root:%@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+{"level":"[INFO]","time":"[2022-10-13 11:51:52.605]","line":"[core/core.go:28]","func":"povit/core.(*Core).init","msg":"hello, Welcome to indulge!"}
+{"level":"\u001b[35mDEBUG\u001b[0m","time":"[2022-10-13 11:53:21.414]","line":"[core/log.go:88]","func":"povit/core.InitLogger","msg":"test1280's debug"}
+{"level":"\u001b[34mINFO\u001b[0m","time":"[2022-10-13 11:53:21.414]","line":"[core/log.go:89]","func":"povit/core.InitLogger","msg":"test1280's infof"}
+{"level":"\u001b[33mWARN\u001b[0m","time":"[2022-10-13 11:53:21.415]","line":"[core/log.go:90]","func":"povit/core.InitLogger","msg":"test1280's warnf"}
+{"level":"\u001b[31mERROR\u001b[0m","time":"[2022-10-13 11:53:21.415]","line":"[core/log.go:91]","func":"povit/core.InitLogger","msg":"test1280's error"}
+{"level":"\u001b[34mINFO\u001b[0m","time":"[2022-10-13 11:53:21.415]","line":"[core/db.go:32]","func":"povit/core.getMysqlConfigDns","msg":"","connecting: ":"root:%@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+{"level":"\u001b[34mINFO\u001b[0m","time":"[2022-10-13 11:53:21.514]","line":"[core/core.go:28]","func":"povit/core.(*Core).init","msg":"hello, Welcome to indulge!"}
 [2022-10-13 11:57:45.026]	[35mDEBUG[0m	[core/log.go:88]	indulge/core.InitLogger	test1280's debug
 [2022-10-13 11:57:45.026]	[34mINFO[0m	[core/log.go:89]	indulge/core.InitLogger	test1280's infof
 [2022-10-13 11:57:45.026]	[33mWARN[0m	[core/log.go:90]	indulge/core.InitLogger	test1280's warnf

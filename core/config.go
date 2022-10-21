@@ -3,7 +3,7 @@ package core
 import (
 	"fmt"
 	"github.com/spf13/viper"
-	"indulge/model/config"
+	"povit/model/config"
 )
 
 func InitConfig() (*viper.Viper, *config.Config) {

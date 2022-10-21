@@ -2,8 +2,8 @@ package domain
 
 import (
 	"github.com/gin-gonic/gin"
-	"indulge/global"
 	"net/http"
+	"povit/global"
 )
 
 type Response struct {

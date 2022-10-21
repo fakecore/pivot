@@ -2,7 +2,7 @@ package main
 
 import (
 	_ "github.com/go-spring/starter-echo"
-	"indulge/core"
+	"povit/core"
 )
 
 func main() {

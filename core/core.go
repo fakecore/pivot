@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/fvbock/endless"
 	"github.com/gin-gonic/gin"
-	"indulge/global"
+	"povit/global"
 	"time"
 )
 

@@ -23,5 +23,4 @@ func TestStructCopy(t *testing.T) {
 	if s.v1 == d.v1 || s.Test != d.Test {
 		t.Error("copy failed")
 	}
-
 }

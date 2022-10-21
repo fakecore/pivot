@@ -2,8 +2,8 @@ package impl
 
 import (
 	"github.com/gin-gonic/gin"
-	"indulge/global"
-	"indulge/model/db/biz"
+	"povit/global"
+	"povit/model/db/biz"
 )
 
 // +ioc:autowire=true

@@ -3,8 +3,8 @@ package utils
 import (
 	"errors"
 	"github.com/dgrijalva/jwt-go"
-	"indulge/global"
-	"indulge/model/domain"
+	"povit/global"
+	"povit/model/domain"
 	"time"
 )
 

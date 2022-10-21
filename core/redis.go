@@ -2,7 +2,7 @@ package core
 
 import (
 	"github.com/go-redis/redis/v9"
-	"indulge/global"
+	"povit/global"
 )
 
 func InitRedisOrDie() *redis.Client {

@@ -2,8 +2,8 @@ package sys
 
 import (
 	"github.com/gin-gonic/gin"
-	"indulge/api/v1/sys"
-	_ "indulge/api/v1/sys/impl"
+	"povit/api/v1/sys"
+	_ "povit/api/v1/sys/impl"
 )
 
 // +ioc:autowire=true
