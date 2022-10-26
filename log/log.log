@@ -12774,3 +12774,76 @@
 [2022-10-17 00:45:36.348]	[INFO]	[impl/sys_user_impl.go:20]	indulge/api/v1/sys/impl.(*User).CreateUser		{"": [{"createdAt":"0001-01-01T00:00:00Z","updatedAt":"0001-01-01T00:00:00Z","id":19,"name":"测试商品1","brandId":25,"firstTypeId":26,"secondTypeId":28,"imgUrl":"","price":100}]}
 [2022-10-17 15:58:23.665]	[INFO]	[core/db.go:35]	indulge/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
 [2022-10-17 15:58:23.908]	[INFO]	[core/core.go:28]	indulge/core.(*Core).init	hello, Welcome to indulge!
+[2022-10-21 18:02:46.996]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 18:03:15.923]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 18:03:28.830]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 18:03:29.102]	[INFO]	[core/router.go:32]	povit/core.InitRouter		{"": "SysRouter"}
+[2022-10-21 18:03:29.102]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 18:06:40.195]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 18:06:40.293]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 18:06:40.293]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 22:49:26.261]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 22:49:47.607]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 22:49:47.713]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 22:49:47.713]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 22:52:15.057]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 22:54:07.953]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 22:55:59.004]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 22:56:01.146]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 22:56:55.885]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 22:57:01.396]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 22:58:21.095]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 22:58:23.598]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 22:58:23.598]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 22:59:18.807]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 22:59:35.576]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 22:59:35.687]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysUser"}
+[2022-10-21 23:01:20.450]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:01:23.423]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 23:01:23.423]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 23:19:31.559]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:19:38.247]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 23:19:38.248]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 23:23:18.775]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:23:21.923]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 23:23:21.923]	[INFO]	[core/router.go:37]	povit/core.InitRouter	subfnlist 	{"": "SysUser"}
+[2022-10-21 23:23:21.923]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 23:26:13.296]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:26:19.916]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 23:26:19.916]	[INFO]	[core/router.go:37]	povit/core.InitRouter	subfnlist 	{"": "SysUser"}
+[2022-10-21 23:26:19.916]	[INFO]	[core/router.go:40]	povit/core.InitRouter	subsubfnlist 	{"": "SysUser"}
+[2022-10-21 23:26:19.916]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 23:27:07.350]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:27:08.865]	[INFO]	[core/router.go:32]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 23:27:08.866]	[INFO]	[core/router.go:37]	povit/core.InitRouter	subfnlist 	{"": "SysUser"}
+[2022-10-21 23:29:29.630]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:29:36.148]	[INFO]	[core/router.go:33]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 23:29:36.150]	[INFO]	[core/router.go:38]	povit/core.InitRouter	subfnlist 	{"": "SysUser"}
+[2022-10-21 23:31:14.771]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:31:17.905]	[INFO]	[core/router.go:33]	povit/core.InitRouter	fnlist 	{"": "SysRouter"}
+[2022-10-21 23:31:17.905]	[INFO]	[core/router.go:38]	povit/core.InitRouter	subfnlist 	{"": "SysUser"}
+[2022-10-21 23:31:17.905]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 23:32:21.669]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:32:24.516]	[INFO]	[core/router.go:33]	povit/core.InitRouter	routerMainList 	{"": "SysRouter"}
+[2022-10-21 23:32:24.516]	[INFO]	[core/router.go:38]	povit/core.InitRouter	SysRouter 	{"": "SysUser"}
+[2022-10-21 23:32:24.516]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 23:34:22.524]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:34:26.115]	[INFO]	[core/router.go:32]	povit/core.InitRouter	routerMainList 	{"": "SysRouter"}
+[2022-10-21 23:35:15.116]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:35:16.125]	[INFO]	[core/router.go:32]	povit/core.InitRouter	routerMainList 	{"": "SysRouter"}
+[2022-10-21 23:35:16.125]	[INFO]	[core/router.go:37]	povit/core.InitRouter	SysRouter 	{"": "SysUser"}
+[2022-10-21 23:35:16.125]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-21 23:38:25.957]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-21 23:38:35.630]	[INFO]	[core/router.go:32]	povit/core.InitRouter	subRouter	{"": "SysRouter"}
+[2022-10-21 23:38:35.631]	[INFO]	[core/router.go:37]	povit/core.InitRouter	baseRouter	{"": "SysUser"}
+[2022-10-21 23:38:35.631]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-26 23:21:08.998]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-26 23:21:14.069]	[INFO]	[core/router.go:32]	povit/core.InitRouter	subRouter	{"": "SysRouter"}
+[2022-10-26 23:21:14.069]	[ERROR]	[global/global.go:36]	povit/global.ERROR	src must be instance rather than Pointer
+[2022-10-26 23:21:14.069]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-26 23:24:20.559]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-26 23:24:27.077]	[INFO]	[core/router.go:32]	povit/core.InitRouter	subRouter	{"": "SysRouter"}
+[2022-10-26 23:24:27.078]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!
+[2022-10-26 23:42:41.166]	[INFO]	[core/db.go:35]	povit/core.getMysqlConfigDns		{"connecting: ": "root:undergeek@tcp(1.15.52.138:3306)/miniShopCabinet?charset=utf8mb4&parseTime=True&loc=Local"}
+[2022-10-26 23:42:44.302]	[INFO]	[core/router.go:35]	povit/core.InitRouter	baseRouter	{"": "SysUser"}
+[2022-10-26 23:42:44.302]	[INFO]	[core/core.go:29]	povit/core.(*Core).init	hello, Welcome to povit!

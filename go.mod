@@ -1,6 +1,6 @@
 module povit
 
-go 1.17
+go 1.18
 
 require (
 	github.com/alibaba/ioc-golang v1.0.2-0.20220925095638-355ea913014b
@@ -29,6 +29,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
+	github.com/fakecore/gsrf v0.0.6 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect

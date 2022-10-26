@@ -2,7 +2,10 @@ package core
 
 import (
 	"fmt"
+	"github.com/fakecore/gsrf/gsrf"
 	"github.com/gin-gonic/gin"
+	"go.uber.org/zap"
+	"povit/global"
 	"povit/middleware"
 	"povit/router"
 	"reflect"
@@ -21,8 +24,20 @@ func InitRouter() *gin.Engine {
 		fmt.Errorf(err.Error())
 	}
 	//init router into gin
-	routerMain.SysRouter.SysUser.InitRouter(private_group)
 
+	//routerMain.SysRouter.SysUser.InitRouter(private_group)
+
+	subRouterList := gsrf.GetStructFiledList(*routerMain)
+	for _, c := range subRouterList {
+		fi := gsrf.GetFieldInstanceByName(*routerMain, c)
+		baseRouterList := gsrf.GetStructFieldListWithType(fi, "RouterBase")
+		for _, sub := range baseRouterList {
+			global.G_LOG.Info("baseRouter", zap.Any("", sub))
+			tt := gsrf.GetFieldInstanceByName(fi, sub)
+			gsrf.ExecMethod(tt, "InitRouter", private_group)
+		}
+
+	}
 	return Router
 }
 

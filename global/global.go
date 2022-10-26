@@ -20,22 +20,22 @@ var (
 	G_Concurrency_Work = &singleflight.Group{}
 )
 
-func DEBUG(str *string) {
-	G_LOG.Debug(*str)
+func DEBUG(str string) {
+	G_LOG.Debug(str)
 }
 
-func INFO(str *string) {
-	G_LOG.Info(*str)
+func INFO(str string) {
+	G_LOG.Info(str)
 }
 
-func WARN(str *string) {
-	G_LOG.Warn(*str)
+func WARN(str string) {
+	G_LOG.Warn(str)
 }
 
-func ERROR(str *string) {
-	G_LOG.Error(*str)
+func ERROR(str string) {
+	G_LOG.Error(str)
 }
 
-func FATAL(str *string) {
-	G_LOG.Fatal(*str)
+func FATAL(str string) {
+	G_LOG.Fatal(str)
 }
