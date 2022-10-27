@@ -2,14 +2,14 @@ package sys
 
 import (
 	"github.com/gin-gonic/gin"
-	"povit/api/v1/sys"
-	_ "povit/api/v1/sys/impl"
+	"pivot/api/v1/sys"
+	_ "pivot/api/v1/sys/impl"
 )
 
 // +ioc:autowire=true
 // +ioc:autowire:type=singleton
 type SysUserRouter struct {
-	User sys.UserInterface `singleton:"povit/api/v1/sys/impl.User"`
+	User sys.UserInterface `singleton:"pivot/api/v1/sys/impl.User"`
 }
 
 func (r *SysUserRouter) InitRouter(Router *gin.RouterGroup) {

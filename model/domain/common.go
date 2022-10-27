@@ -3,7 +3,7 @@ package domain
 import (
 	"github.com/gin-gonic/gin"
 	"net/http"
-	"povit/global"
+	"pivot/global"
 )
 
 type Response struct {

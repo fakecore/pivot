@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/fvbock/endless"
 	"github.com/gin-gonic/gin"
-	"povit/global"
+	"pivot/global"
 	"time"
 )
 
@@ -26,7 +26,7 @@ func (c *Core) init() {
 	global.G_REDIS = InitRedisOrDie() // init gorm connection pools
 	global.G_Engine = InitRouter()
 	//global.G_LOG
-	global.G_LOG.Info("hello, Welcome to povit!")
+	global.G_LOG.Info("hello, Welcome to pivot!")
 	//global.G_LOG.Info("%v", zap.Any("", global.G_CONF))
 	//fmt.Println("{}", global.G_CONF)
 	//TODO redis

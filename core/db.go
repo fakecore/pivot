@@ -4,8 +4,8 @@ import (
 	"go.uber.org/zap"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"povit/global"
-	"povit/model/config"
+	"pivot/global"
+	"pivot/model/config"
 )
 
 func InitDbOrDie() *gorm.DB {

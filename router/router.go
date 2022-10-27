@@ -1,7 +1,7 @@
 package router
 
 import (
-	"povit/router/sys"
+	"pivot/router/sys"
 )
 
 // +ioc:autowire=true

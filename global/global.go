@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
-	"povit/model/config"
+	"pivot/model/config"
 )
 
 var (

@@ -3,8 +3,8 @@ package utils
 import (
 	"errors"
 	"github.com/dgrijalva/jwt-go"
-	"povit/global"
-	"povit/model/domain"
+	"pivot/global"
+	"pivot/model/domain"
 	"time"
 )
 

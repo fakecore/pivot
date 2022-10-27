@@ -4,8 +4,8 @@ import (
 	"fmt"
 	gormadapter "github.com/casbin/gorm-adapter/v3"
 	"gorm.io/gorm"
-	"povit/global"
-	"povit/utils"
+	"pivot/global"
+	"pivot/utils"
 )
 
 func InitTableOrDie(db *gorm.DB, dbTable interface{}) {

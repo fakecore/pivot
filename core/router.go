@@ -5,9 +5,9 @@ import (
 	"github.com/fakecore/gsrf/gsrf"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
-	"povit/global"
-	"povit/middleware"
-	"povit/router"
+	"pivot/global"
+	"pivot/middleware"
+	"pivot/router"
 	"reflect"
 )
 
@@ -26,7 +26,6 @@ func InitRouter() *gin.Engine {
 	//init router into gin
 
 	//routerMain.SysRouter.SysUser.InitRouter(private_group)
-
 	subRouterList := gsrf.GetStructFiledList(*routerMain)
 	for _, c := range subRouterList {
 		fi := gsrf.GetFieldInstanceByName(*routerMain, c)
@@ -36,7 +35,6 @@ func InitRouter() *gin.Engine {
 			tt := gsrf.GetFieldInstanceByName(fi, sub)
 			gsrf.ExecMethod(tt, "InitRouter", private_group)
 		}
-
 	}
 	return Router
 }

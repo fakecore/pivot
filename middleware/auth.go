@@ -2,9 +2,9 @@ package middleware
 
 import (
 	"github.com/gin-gonic/gin"
-	"povit/global"
-	"povit/model/domain"
-	"povit/utils"
+	"pivot/global"
+	"pivot/model/domain"
+	"pivot/utils"
 )
 
 func JWTAuth() gin.HandlerFunc {

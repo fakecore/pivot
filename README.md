@@ -36,13 +36,13 @@ type RouterMain struct {
 // +ioc:autowire=true
 // +ioc:autowire:type=singleton
 type SysRouter struct {
-	SysUser RouterBase `singleton:"povit/router/sys.SysUserRouter"`
+	SysUser RouterBase `singleton:"pivot/router/sys.SysUserRouter"`
 }
 
 // +ioc:autowire=true
 // +ioc:autowire:type=singleton
 type SysUserRouter struct {
-	User sys.UserInterface `singleton:"povit/api/v1/sys/impl.User"`
+	User sys.UserInterface `singleton:"pivot/api/v1/sys/impl.User"`
 }
 
 type UserInterface interface {

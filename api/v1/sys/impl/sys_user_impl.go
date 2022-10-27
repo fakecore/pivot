@@ -2,8 +2,8 @@ package impl
 
 import (
 	"github.com/gin-gonic/gin"
-	"povit/global"
-	"povit/model/db/biz"
+	"pivot/global"
+	"pivot/model/db/biz"
 )
 
 // +ioc:autowire=true

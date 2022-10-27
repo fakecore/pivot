@@ -1,4 +1,4 @@
-module povit
+module pivot
 
 go 1.18
 

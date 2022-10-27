@@ -1,6 +1,6 @@
 package sys
 
-//import "povit/global"
+//import "pivot/global"
 
 type SysUserDao struct {
 }
